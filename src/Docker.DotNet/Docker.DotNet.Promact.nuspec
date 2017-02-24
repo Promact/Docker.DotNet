@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Docker.DotNet.Promact</id>
+    <version>$version$</version>
+    <title>Docker.DotNet.Promact</title>
+    <authors>Promact</authors>
+    <owners>Promact</owners>
+    <licenseUrl>https://github.com/Promact/Docker.DotNet</licenseUrl>
+    <projectUrl>https://github.com/Promact/Docker.DotNet</projectUrl>
+    <iconUrl>https://media.licdn.com/media/p/2/005/01b/1a3/2416109.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Docker.DotNet.Promact</description>
+    <releaseNotes>Docker.DotNet.Promact</releaseNotes>
+    <copyright>Promact 2017</copyright>
+    <tags>Docker-DotNet-Promact</tags>
+  </metadata>
+  <files>
+    <file src="bin/Release/net46/Docker.DotNet.dll" target="lib/net46"></file>
+	<file src="bin/Release/net45/Docker.DotNet.dll" target="lib/net45"></file>
+    <file src="bin/Release/netstandard1.6/Docker.DotNet.dll" target="lib/netstandard1.6"></file>
+  </files>
+</package>
